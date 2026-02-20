@@ -54,8 +54,8 @@ La table cible est reconstruite à chaque exécution pour garantir l'exhaustivit
 
 | Flux | Source Oracle | Schéma | Identifiant Pivot | Fiche détaillée |
 | --- | --- | --- | --- | --- |
-| **Export_PERS** | COCKTAIL | `GRHUM` | `supannEmpId` | [docs/job-pers.md](docs/job-pers.md) |
-| **Export_ETU** | APOGEE | `PASSCAMPUS` | `ETU_NUMBER` | [docs/job-etu.md](docs/job-etu.md) |
+| **Export_PERS** | COCKTAIL | `GRHUM` | `supannEmpId` | [docs/Export_PERS.md](docs/job-pers.md) |
+| **Export_ETU** | APOGEE | `PASSCAMPUS` | `ETU_NUMBER` | [docs/Export_ETU.md](docs/job-etu.md) |
 
 ---
 
