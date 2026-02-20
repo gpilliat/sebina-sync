@@ -52,10 +52,10 @@ La table cible est reconstruite à chaque exécution pour garantir l'exhaustivit
 
 ## 3. Référentiel des flux
 
-| Flux | Source Oracle | Schéma | Identifiant Pivot |
-| --- | --- | --- | --- |
-| **Export_PERS** | COCKTAIL | `GRHUM` | `supannEmpId` |
-| **Export_ETU** | APOGEE | `PASSCAMPUS` | `ETU_NUMBER` |
+| Flux | Source Oracle | Schéma | Identifiant Pivot | Fiche détaillée |
+| --- | --- | --- | --- | --- |
+| **Export_PERS** | COCKTAIL | `GRHUM` | `supannEmpId` | [docs/job-pers.md](docs/job-pers.md) |
+| **Export_ETU** | APOGEE | `PASSCAMPUS` | `ETU_NUMBER` | [docs/job-etu.md](docs/job-etu.md) |
 
 ---
 
