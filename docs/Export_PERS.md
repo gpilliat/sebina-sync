@@ -2,6 +2,10 @@
 
 Ce job assure l'extraction et la mise en conformité des données du personnel de l'UHA pour le projet SEBINA.
 
+## Schéma du job Talend
+
+![Job Talend Export_PERS](images/job-pers-talend.png)
+
 ## 1. Caractéristiques du Flux
 
 - **Source principale** : Oracle 19c, vue `GRHUM.V_UHA_WSSIGB_PERS_EXPORT` ([voir SQL](../sql/views_pers.sql)).
