@@ -37,6 +37,8 @@ Le traitement maintient un état de référence par un mécanisme de double lect
 - **Comparaison** : Le job effectue un rapprochement entre le flux source et la table cible existante sur le couple `{Identifiant, Hash}`.
 - **Filtrage** : Seules les lignes dont le hash est absent de la cible (nouveautés ou modifications) sont isolées pour la mise à jour.
 
+> Pour le détail du mécanisme de hash, voir [docs/hash-differentiel.md](docs/hash-differentiel.md).
+
 ### 2.2 Reconstruction de la table
 
 La table cible est reconstruite à chaque exécution pour garantir l'exhaustivité des données transmises au Web Service :
