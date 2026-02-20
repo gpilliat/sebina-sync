@@ -2,6 +2,10 @@
 
 Ce job assure l'extraction et la mise en conformité des données de scolarité des étudiants de l'UHA pour le projet SEBINA.
 
+## Schéma du job Talend
+
+![Job Talend Export_ETU](images/job-etu-talend.png)
+
 ## 1. Caractéristiques du Flux
 
 - **Source principale** : Oracle 19c, vue `PASSCAMPUS.V_UHA_WSSIGB_ETU_EXPORT` ([voir SQL](../sql/views_etu.sql)).
